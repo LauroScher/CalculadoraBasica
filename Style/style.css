@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    background: url(Fundo.jpg) no-repeat;
+    background-size: auto;
+    background-position: center center;
+    background-color: #251929;
+}
+body > main{
+    background-color: #332238;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px #19111b;
+    padding: 5px;
+}
+ h1#title{
+    text-align: center;
+    color:#D7B42B;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+.calculadora > div{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.value{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20%;
+}
+.num, .esnum{
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.164);
+    border-radius: 20%;
+    text-align: center;
+}
+
+.num{
+    background-color: rgba(255, 228, 196, 0.829);
+}
+
+.esnum{
+    background-color: rgba(240, 248, 255, 0.863);
+}
+
+.num:hover{
+    transition: 0.5s;
+    background-color: aliceblue;
+}
+
+.esnum:hover{
+    transition: 0.5s;
+    background-color: rgba(222, 184, 135, 0.753);
+}

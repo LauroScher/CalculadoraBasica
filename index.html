@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <section class="container">
+            
+            <form class="calculadora" name="calc">
+                <h1 id ="title">Calculadora</h1>
+                <input type="text" class="value" name="text" id="resu">
+                <div>
+                    <span class="num" onclick="document.calc.text.value = '';">AC</span>
+                    <span class="esnum" onclick="document.calc.text.value += ' % '">%</span>
+                    <span class="esnum" onclick="document.calc.text.value += ' + '">+</span>
+                    <span class="esnum" onclick="document.calc.text.value += ' - '">-</span>
+                    <span class="esnum" onclick="document.calc.text.value += ' x '">x</span>
+                    <span class="esnum" onclick="document.calc.text.value += ' ÷ '">÷</span>
+                    <span class="num" onclick="document.calc.text.value += '7'">7</span>
+                    <span class="num" onclick="document.calc.text.value += '6'">6</span>
+                    <span class="num" onclick="document.calc.text.value += '5'">5</span>
+                    <span class="num" onclick="document.calc.text.value += '4'">4</span>
+                    <span class="num" onclick="document.calc.text.value += '3'">3</span>
+                    <span class="num" onclick="document.calc.text.value += '2'">2</span>
+                    <span class="num" onclick="document.calc.text.value += '1'">1</span>
+                    <span class="num" onclick="document.calc.text.value += '0'">0</span>
+                    <span class="num" onclick="document.calc.text.value += '.'">.</span>
+                    <span class="num" onclick="calcular()">=</span>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="JavaScript/js.js">
+    </script>
+    
+</body>
+</html>
