@@ -1,6 +1,5 @@
 function calcular(){
  var valores = (calc.text.value).split(' ');
- console.log(valores);
 
 var num1 = parseFloat(valores.shift());
 var type = valores.shift();
